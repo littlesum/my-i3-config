@@ -1,0 +1,17 @@
+[Default Applications]
+x-scheme-handler/tg=userapp-Telegram Desktop-75FRN1.desktop
+x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-WZ2C80.desktop;userapp-Telegram Desktop-ATSLE1.desktop;userapp-Telegram Desktop-75FRN1.desktop;
+image/png=feh.desktop;
+application/x-matroska=mpv.desktop;vlc.desktop;
+video/mp4=vlc.desktop;mpv.desktop;mplayer.desktop;
+video/x-matroska=vlc.desktop;
+image/jpeg=feh.desktop;qiv.desktop;
+application/x-shellscript=gvim.desktop;sublime_text.desktop;vim.desktop;
+audio/mpeg=vlc.desktop;
+application/octet-stream=gvim.desktop;vim.desktop;
+audio/x-wav=vlc.desktop;mpv.desktop;mplayer.desktop;
+audio/x-vorbis+ogg=vlc.desktop;
+audio/x-opus+ogg=vlc.desktop;mpv.desktop;

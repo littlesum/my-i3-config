@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="nfs://10.0.5.10/mnt/hdd/nfs" added="2022-05-05T12:11:00.604772Z" modified="2022-05-05T12:11:00.604776Z" visited="2022-05-05T12:11:00.604773Z">
+    <title>nfs</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-05-05T12:11:00.604774Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="nfs://10.0.5.10/mnt/ssd/samba" added="2022-05-05T12:15:57.136680Z" modified="2022-06-17T01:22:16.288724Z" visited="2022-06-17T01:22:16.288722Z">
+    <title>samba</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-06-17T01:22:16.288723Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://pi@10.0.5.254/raspberry/" added="2022-05-05T12:16:23.884705Z" modified="2022-06-17T01:23:08.092269Z" visited="2022-06-17T01:23:08.092266Z">
+    <title>raspberry on 10.0.5.254</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-06-17T01:23:08.092268Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://pi@10.0.5.254/pi/" added="2022-05-05T12:16:40.488801Z" modified="2022-06-17T01:22:34.338290Z" visited="2022-06-17T01:22:34.338287Z">
+    <title>pi on 10.0.5.254</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-06-17T01:22:34.338289Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="nfs://10.0.5.10/mnt/ssd/samba/smbshare" added="2022-05-05T12:19:17.294399Z" modified="2022-05-05T12:19:17.294402Z" visited="2022-05-05T12:19:17.294400Z">
+    <title>smbshare</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2022-05-05T12:19:17.294401Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

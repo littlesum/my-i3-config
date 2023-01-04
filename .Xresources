@@ -1,0 +1,89 @@
+Urxvt*depth: 32
+URxvt.font: xft:Fira Code Retina:pixelsize=24:style=Regular,xft:FontAwsome:pixelsize=24:style=Regular,xft:Noto Sans CJK SC:pixelsize=24:style=Regular
+URxvt.boldFont: xft:Fira Code Retina:pixelsize=24:antialias=true:hinting=true:style=Bold,xft:FontAwsome:pixelsize=24:style=Bold,xft:Noto Sans CJK SC:pixelsize=24:style=Bold
+URxvt.italicfont: xft:Fira Code Retina:pixelsize=24:antialias=true:hinting=true:style=Italicfont,xft:FontAwsome:pixelsize=24:style=Italicfont,xft:Noto Sans CJK SC:pixelsize=24:style=Italicfont
+URxvt.boldItalicfont: xft:Fira Code Retina:pixelsize=24:antialias=true:hinting=true:style=boldItalicfont,xft:FontAwsome:pixelsize=24:boldItalicfont,xft:Noto Sans CJK SC:pixelsize=24:style=boldItalicfont
+
+URxvt*geometry: 60x20
+URxvt.secondaryScroll: true
+URxvt.saveLines: 10000
+URxvt.scrollBar: false
+URxvt.letterSpace: 0 
+!URxvt.transparent: true
+!URxvt.shading: 110
+!URxvt.background: [90]#000000
+!URxvt.forceground: #ffffff
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt.secondaryScreen: 1
+
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+
+URxvt.colorUL: #4682B4
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+
+! URxvt.url-select.launcher: /usr/bin/xdg-open
+
+
+!!Xft*dpi: 240
+Xft*dpi: 192
+!Xft*dpi: 96
+!Xft*dpi: 120
+Xft*antialias: True
+Xft*hiting: Full
+Xft*rgba: rgb
+Xft.autohint: false
+Xft.hitstyle: hintslight
+
+! special
+*.foreground:   #ffffff
+*.background:   #1a1a1a
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #1a1a1a
+*.color8:       #4d4d4d
+
+! red
+*.color1:       #cc0403
+*.color9:       #bd120f
+
+! green
+*.color2:       #19cb00
+*.color10:      #23fd00
+
+! yellow
+*.color3:       #cecb00
+*.color11:      #fffd00
+
+! blue
+*.color4:       #6495ed
+*.color12:      #40e0d0
+
+! magenta
+*.color5:       #cb1ed1
+*.color13:      #fd24ff
+
+! cyan
+*.color6:       #0dcdcd
+*.color14:      #14ffff
+
+! white
+*.color7:       #e5e5e5
+*.color15:      #ffffff
+

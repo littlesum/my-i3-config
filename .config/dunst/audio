@@ -1,0 +1,14 @@
+#!/bin/bash
+
+statusLine=$(amixer get Master | tail -n 1)
+status=$(echo "${statusLine}" | grep -wo "on")
+volume=$(echo "${statusLine}" | awk -F ' ' '{print $5}' | tr -d '[]%')
+off=$(echo "${statusLine}" | awk -F ' ' '{print $6}' | tr -d '[]')
+
+if [[ "$status" == "on" ]];
+then
+ dunstify -u low --timeout 1500 -h int:value:${volume} " Volume" -r 1001
+elif [[ "$off" == "off" ]]; 
+then
+ dunstify -u critical -r 1003 --timeout 1000 " Volume" "  MUTE"
+fi

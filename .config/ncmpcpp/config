@@ -1,0 +1,18 @@
+mpd_host = "127.0.0.1"
+mpd_port = 6600
+mpd_music_dir = "~/Music"
+system_encoding = utf8
+audio_output {
+         type            "fifo"
+         name            "My FIFO"
+         path            "~/.config/mpd/mpd.fifo"
+         format          "44100:16:1"
+}
+visualizer_data_source = "/tmp/mpd.fifo"
+visualizer_output_name = "MY FIFO"
+visualizer_in_stereo = "yes"
+visualizer_type = "spectrum"
+visualizer_look = "+|"
+visualizer_fps = 60
+visualizer_autoscale = yes
+visualizer_spectrum_smooth_look = yes
